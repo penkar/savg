@@ -4,7 +4,7 @@ module.exports = {
   entry:"./index.js",
   output:{
     path:path.resolve(__dirname, 'dist'),
-    filename:'main.js',
+    filename:'index.js',
     library:'Savg'
   },
   target:'web',
@@ -15,6 +15,10 @@ module.exports = {
       use:{
         loader:'babel-loader'
       }
+    },{
+      test:/.scss$/,
+      exclude:/node_modules/,
+      use:['style-loader', 'css-loader', 'sass-loader']
     }]
   },
   resolve: {

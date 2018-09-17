@@ -8,7 +8,11 @@ class Application extends React.Component {
   }
 
   render() {
-    return <SkyScrapper />
+    return (
+      <svg style={{height:'310px', width:'60px'}}>
+        <SkyScrapper />
+      </svg>
+    );
   }
 }
 export {Application}

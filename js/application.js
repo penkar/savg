@@ -1,5 +1,5 @@
 import React from 'react';
-import {SkyScrapper} from './examples';
+import {SkyScrapper, Office} from './examples';
 
 class Application extends React.Component {
   constructor(props) {
@@ -9,8 +9,8 @@ class Application extends React.Component {
 
   render() {
     return (
-      <svg style={{height:'310px', width:'60px'}}>
-        <SkyScrapper />
+      <svg>
+        { Office() } 
       </svg>
     );
   }

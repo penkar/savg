@@ -1,3 +1,5 @@
+@import "./colors.scss";
+@import "./components.scss";
 body, html {
   margin:0px;
 }
@@ -6,40 +8,10 @@ svg {
   height: 100vh;
 }
 
+
 .strokeHalf {
   stroke-width:0.5;
 }
 .strokeThree {
   stroke-width:3;
-}
-
-.white {
-  color:#ffffff;
-  fill:#ffffff;
-  background-color:#ffffff;
-  stroke:#ffffff;
-}
-.green {
-  color:#A0BF3B;
-  fill:#A0BF3B;
-  background-color:#A0BF3B;
-  stroke:#A0BF3B;
-}
-.brown {
-  color:#62381B;
-  fill:#62381B;
-  background-color:#62381B;
-  stroke:#62381B;
-}
-.orange {
-  color:#F15C27;
-  fill:#F15C27;
-  background-color:#F15C27;
-  stroke:#F15C27;
-}
-.light-blue {
-  color:#69C8C3;
-  fill:#69C8C3;
-  background-color:#69C8C3;
-  stroke:#69C8C3;
 }

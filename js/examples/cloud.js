@@ -1,15 +1,14 @@
 import React from 'react'
-function Cloud() {
+function Cloud({fill="sky", x=0, y=0, scale=1}) {
   return(
-    <g className='cloud-component'>
-      <rect className="light-blue" x="0" y="0" width="150" height="100"/>
-      <path className="sky cloud" d={`M120,90 H30,
-        C0,90 0,60 30,60
-        C10,25 65,0 75,50
-        C60,40 80,10 100,40
-        C150,20 120,80 120,60
-        L120,60
-        C150,60 150,90 120,90 Z`} />
+    <g className='cloud-component' transform={`translate(${x},${y}) scale(${scale})`}>
+      <path className={`${fill} cloud outline`} d={`M120,70 H30,
+        C0,70 0,40 30,40
+        C10,15 55,-10 65,30
+        C60,0 95,-10 100,20
+        C130,10 125,35 120,40
+        L120,40
+        C150,40 150,70 120,70 Z`} />
     </g>
   );
 }

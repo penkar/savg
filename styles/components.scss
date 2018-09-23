@@ -1,6 +1,24 @@
-.sky-scrapper-component {
-
+.cloud-component {}
+.office-component {}
+.person-component {}
+.plane-component {}
+.rainbow-component {}
+.shuttle-component {}
+.sky-scrapper-component {}
+.sun-component {
+  .ray{
+    animation: pulse 1s infinite;
+    stroke-width:2;
+  }
 }
-.office-component {
-  
+.wave-component {}
+.wide-sky-component {}
+
+@keyframe pulse {
+  0% {
+    stroke-width:2;
+  }
+  50% {
+    stroke-width:30;
+  }
 }

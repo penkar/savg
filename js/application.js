@@ -1,5 +1,5 @@
 import React from 'react';
-import {Cloud, WideSky} from './examples';
+import {WideSky} from './examples';
 
 class Application extends React.Component {
   constructor(props) {

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Cloud} from './cloud.js';
 import {Sun} from './sun.js';
+import {Moon} from './moon.js';
 import {randomNumberBetween, randomNumberBetweenMaxMin} from '../utilities/randomNumberBetween.js';
 
 function WideSky() {
@@ -13,6 +14,7 @@ function WideSky() {
       <rect className="light-blue" x="0" y="0" width="900" height="300"/>
       { cloudArray.map(({x,y,scale}, key) => Cloud({x,y,scale, key}))}
       { Sun() }
+      { Moon(800, 50) }
     </g>
   )
 }

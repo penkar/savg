@@ -1,7 +1,7 @@
 import React from 'react';
 function Office() {
   return (
-    <g className="office-component">
+    <g id="office-component" className="office-component">
       <rect className="sky" x="0" y="0" height="250" width="210"/>
       <rect className="gray" x="35" y="25" height="225" width="140"/>
       { [40,60,80,100,120,140,160].map(

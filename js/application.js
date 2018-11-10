@@ -1,5 +1,6 @@
 import React from 'react';
-import {WideSky} from './examples';
+// import {WideSky} from './examples';
+import * as Examples from './examples';
 
 class Application extends React.Component {
   constructor(props) {
@@ -10,7 +11,14 @@ class Application extends React.Component {
   render() {
     return (
       <svg>
-        { WideSky() }
+        <defs>
+          { Examples.Cloud() }
+          { Examples.Moon() }
+          { Examples.Sun() }
+          { Examples.Office() }
+          { Examples.SkyScrapper() }
+        </defs>
+        { Examples.WideSky() }
       </svg>
     );
   }

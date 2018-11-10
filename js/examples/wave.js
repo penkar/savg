@@ -1,8 +1,10 @@
 import React from 'react'
 function Wave() {
-  return(
-    <g className='wave-component'>
-      <rect className="sky" x="0" y="0" height="100" width="150"/>
+  // const width = screen.width;
+
+  return (
+    <g className='wave-component' style={{transform:`translate(0%, 100%)`}}>
+      <path className="purple" d={`m0,0 v-75 c0,-40 0,-40 100,-40 v75 z`}/>
     </g>
   )
 }

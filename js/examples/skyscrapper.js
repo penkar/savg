@@ -1,7 +1,7 @@
 import React from 'react';
 function SkyScrapper() {
   return (
-    <g className="sky-scrapper-component">
+    <g id="sky-scrapper-component" className="sky-scrapper-component">
       <rect className="sky" x="0" y="0" height="310" width="60"/>
       <line strokeWidth="3" className="brown" x1="15" y1="69" x2="45" y2="69" />
       <rect className="brown" x="20" y="50" height="20" width="20"/>

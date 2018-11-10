@@ -1,7 +1,7 @@
 import React from 'react';
-function Sun(x=150,y=50,r=50) {
+function Sun() {
   return (
-    <g className="sun-component" transform={`translate(${x},${y})`}>
+    <g id="sun" className="sun-component">
       <circle cx="50" cy="50" r="70" fill="#f9f979" />
       <circle cx="50" cy="50" r="50" className="yellow" />
       <g transform="rotate(45 50 50)" key="rays2">

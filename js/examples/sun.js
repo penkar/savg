@@ -2,7 +2,7 @@ import React from 'react';
 function Sun() {
   return (
     <g id="sun" className="sun-component">
-      <circle cx="50" cy="50" r="70" fill="#f9f979" />
+      <circle cx="50" cy="50" r="70" className="light-yellow" />
       <circle cx="50" cy="50" r="50" className="yellow" />
       <g transform="rotate(45 50 50)" key="rays2">
       { [ {x1:50,x2:50,y1:-35,y2:10},
@@ -21,4 +21,4 @@ function Sun() {
     </g>
   );
 }
-export {Sun}
+export default Sun

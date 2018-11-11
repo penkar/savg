@@ -6,4 +6,4 @@ function Moon() {
     </g>
   )
 }
-export {Moon}
+export default Moon

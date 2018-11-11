@@ -12,12 +12,9 @@ class Application extends React.Component {
     return (
       <svg>
         <defs>
-          { Examples.Cloud() }
-          { Examples.Moon() }
-          { Examples.Sun() }
-          { Examples.Office() }
-          { Examples.SkyScrapper() }
+          { Examples.elements.map((element, index) => <g key={index}>{element()}</g>) }
         </defs>
+
         { Examples.WideSky() }
       </svg>
     );

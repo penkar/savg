@@ -21,6 +21,8 @@ function WideSky() {
       <use x="50"  y="50" href="#sun"  fill="url('#sun')"  />
       <use x="800" y="50" href="#moon" fill="url('#moon')" />
 
+      <use x="444" y="200" href="#plane" fill="url('#plane')" />
+
       { false && Wave() }
     </g>
   )

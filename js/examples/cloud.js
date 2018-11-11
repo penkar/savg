@@ -14,4 +14,4 @@ Z`} />
     </g>
   );
 }
-export {Cloud}
+export default Cloud

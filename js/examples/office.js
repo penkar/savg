@@ -26,4 +26,4 @@ function Office() {
     </g>
   );
 }
-export {Office}
+export default Office

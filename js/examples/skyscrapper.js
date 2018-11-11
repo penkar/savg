@@ -24,4 +24,4 @@ function SkyScrapper() {
     </g>
   )
 }
-export {SkyScrapper}
+export default SkyScrapper

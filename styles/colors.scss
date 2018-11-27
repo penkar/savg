@@ -44,81 +44,45 @@
   --accent-purple:#dbc6ff;
 }
 
-.white {
-  color:var(--white);
-  fill:var(--white);
-  background-color:var(--white);
-  stroke:var(--white);
-}
-.green {
-  color:var(--green);
-  fill:var(--green);
-  background-color:var(--green);
-  stroke:var(--green);
-}
-.brown {
-  color:var(--brown);
-  fill:var(--brown);
-  background-color:var(--brown);
-  stroke:var(--brown);
-}
-.orange {
-  color:var(--orange);
-  fill:var(--orange);
-  background-color:var(--orange);
-  stroke:var(--orange);
-}
-.light-blue {
-  color:var(--light-blue);
-  fill:var(--light-blue);
-  background-color:var(--light-blue);
-  stroke:var(--light-blue);
-}
-.dark-blue {
-  color:var(--dark-blue);
-  fill:var(--dark-blue);
-  background-color:var(--dark-blue);
-  stroke:var(--dark-blue);
-}
-.yellow {
-  color:var(--yellow);
-  fill:var(--yellow);
-  background-color:var(--yellow);
-  stroke:var(--yellow);
-}
-.dark-yellow {
-  color:var(--dark-yellow);
-  fill:var(--dark-yellow);
-  background-color:var(--dark-yellow);
-  stroke:var(--dark-yellow);
-}
-.light-yellow {
-  color:var(--light-yellow);
-  fill:var(--light-yellow);
-  background-color:var(--light-yellow);
-  stroke:var(--light-yellow);
-}
-.sky {
-  color:var(--sky);
-  fill:var(--sky);
-  background-color:var(--sky);
-  stroke:var(--sky);
-}
-.gray {
-  color:var(--gray);
-  fill:var(--gray);
-  background-color:var(--gray);
-  stroke:var(--gray);
-}
-.black {
-  color:var(--black);
-  fill:var(--black);
-  background-color:var(--black);
-  stroke:var(--black);
-}
-.purple {
-  color:var(--purple);
-  fill:var(--purple);
-  background-color:var(--purple);
-  stroke:var(--purple);
-}
+.white {color:var(--white); fill:var(--white); background-color:var(--white); stroke:var(--white);}
+.green {color:var(--green); fill:var(--green); background-color:var(--green); stroke:var(--green);}
+.light-green {color:var(--light-green); fill:var(--light-green); background-color:var(--light-green); stroke:var(--light-green);}
+.dark-green {color:var(--dark-green); fill:var(--dark-green); background-color:var(--dark-green); stroke:var(--dark-green);}
+.accent-green {color:var(--accent-green); fill:var(--accent-green); background-color:var(--accent-green); stroke:var(--accent-green);}
+
+.brown {color:var(--brown); fill:var(--brown); background-color:var(--brown); stroke:var(--brown);}
+.light-brown {color:var(--light-brown); fill:var(--light-brown); background-color:var(--light-brown); stroke:var(--light-brown);}
+.dark-brown {color:var(--dark-brown); fill:var(--dark-brown); background-color:var(--dark-brown); stroke:var(--dark-brown);}
+.accent-brown {color:var(--accent-brown); fill:var(--accent-brown); background-color:var(--accent-brown); stroke:var(--accent-brown);}
+
+.orange {color:var(--orange); fill:var(--orange); background-color:var(--orange); stroke:var(--orange);}
+.light-orange {color:var(--light-orange); fill:var(--light-orange); background-color:var(--light-orange); stroke:var(--light-orange);}
+.dark-orange {color:var(--dark-orange); fill:var(--dark-orange); background-color:var(--dark-orange); stroke:var(--dark-orange);}
+.accent-orange {color:var(--accent-orange); fill:var(--accent-orange); background-color:var(--accent-orange); stroke:var(--accent-orange);}
+
+.blue {color:var(--blue); fill:var(--blue); background-color:var(--blue); stroke:var(--blue);}
+.light-blue {color:var(--light-blue); fill:var(--light-blue); background-color:var(--light-blue); stroke:var(--light-blue);}
+.dark-blue {color:var(--dark-blue); fill:var(--dark-blue); background-color:var(--dark-blue); stroke:var(--dark-blue);}
+.accent-blue {color:var(--accent-blue); fill:var(--accent-blue); background-color:var(--accent-blue); stroke:var(--accent-blue);}
+
+.yellow {color:var(--yellow); fill:var(--yellow); background-color:var(--yellow); stroke:var(--yellow);}
+.dark-yellow {color:var(--dark-yellow); fill:var(--dark-yellow); background-color:var(--dark-yellow); stroke:var(--dark-yellow);}
+.light-yellow {color:var(--light-yellow); fill:var(--light-yellow); background-color:var(--light-yellow); stroke:var(--light-yellow);}
+.accent-yellow {color:var(--accent-yellow); fill:var(--accent-yellow); background-color:var(--accent-yellow); stroke:var(--accent-yellow);}
+
+.sky {color:var(--sky); fill:var(--sky); background-color:var(--sky); stroke:var(--sky);}
+
+.gray {color:var(--gray); fill:var(--gray); background-color:var(--gray); stroke:var(--gray);}
+.light-gray {color:var(--light-gray); fill:var(--light-gray); background-color:var(--light-gray); stroke:var(--light-gray);}
+.dark-gray {color:var(--dark-gray); fill:var(--dark-gray); background-color:var(--dark-gray); stroke:var(--dark-gray);}
+.accent-gray {color:var(--accent-gray); fill:var(--accent-gray); background-color:var(--accent-gray); stroke:var(--accent-gray);}
+
+.black {color:var(--black); fill:var(--black); background-color:var(--black); stroke:var(--black);}
+.light-black {color:var(--light-black); fill:var(--light-black); background-color:var(--light-black); stroke:var(--light-black);}
+.dark-black {color:var(--dark-black); fill:var(--dark-black); background-color:var(--dark-black); stroke:var(--dark-black);}
+.accent-black {color:var(--accent-black); fill:var(--accent-black); background-color:var(--accent-black); stroke:var(--accent-black);}
+
+.purple {color:var(--purple); fill:var(--purple); background-color:var(--purple); stroke:var(--purple);}
+.light-purple {color:var(--light-purple); fill:var(--light-purple); background-color:var(--light-purple); stroke:var(--light-purple);}
+.dark-purple {color:var(--dark-purple); fill:var(--dark-purple); background-color:var(--dark-purple); stroke:var(--dark-purple);}
+.accent-purple {color:var(--accent-purple); fill:var(--accent-purple); background-color:var(--accent-purple); stroke:var(--accent-purple);}

@@ -4,6 +4,7 @@ import Office from './office.js';
 import Plane from './plane.js';
 import SkyScrapper from './skyscrapper.js';
 import Sun from './sun.js';
+
 const elements = [Cloud, Moon, Office, Plane, SkyScrapper, Sun];
 export {elements};
 

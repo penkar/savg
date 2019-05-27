@@ -1,5 +1,6 @@
-import React from 'react'
-function Wave() {
+// @flow
+import * as React from 'react';
+function Wave(): React.Node {
   // const width = screen.width;
 
   return (

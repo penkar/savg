@@ -1,3 +1,4 @@
+// @flow
 const randomNumberBetween = (max) =>
   (Math.random() * max);
 

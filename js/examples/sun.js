@@ -1,5 +1,6 @@
-import React from 'react';
-function Sun() {
+// @flow
+import * as React from 'react';
+function Sun(): React.Node {
   return (
     <g id="sun" className="sun-component">
       <circle cx="50" cy="50" r="70" className="light-yellow" />

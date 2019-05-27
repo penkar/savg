@@ -1,5 +1,6 @@
-import React from 'react';
-function SkyScrapper() {
+// @flow
+import * as React from 'react';
+function SkyScrapper(): React.Node {
   return (
     <g id="sky-scrapper-component" className="sky-scrapper-component">
       <rect className="sky" x="0" y="0" height="310" width="60"/>

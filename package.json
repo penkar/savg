@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "flow":"flow",
+    "flow": "flow",
     "dev": "webpack --config webpack.js --watch=true --devtools=source-map --mode=development",
     "start": "webpack --config webpack.js --watch=true --devtools=source-map --mode=development & cd dist && python -m SimpleHTTPServer"
   },
@@ -12,22 +12,22 @@
   "license": "ISC",
   "dependencies": {
     "babel": "^6.23.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "@babel/preset-flow": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-flow": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
     "css-loader": "^1.0.1",
     "flow-bin": "^0.98.1",
     "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.9.3",
-    "sass-loader": "^7.1.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
     "style-loader": "^0.23.1",
-    "webpack": "^4.19.0",
-    "webpack-cli": "^3.1.0"
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }

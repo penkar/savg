@@ -1,5 +1,5 @@
 import React from 'react';
-import * as Examples from './examples';
+import * as Examples from './js/examples';
 
 export default function Application () {
   return (

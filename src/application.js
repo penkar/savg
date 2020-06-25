@@ -8,7 +8,6 @@ export default function Application () {
         { Examples.elements.map((element, index) =>
           <g key={index}>{element()}</g>) }
       </defs>
-
       { Examples.WideSky() }
     </svg>
   )

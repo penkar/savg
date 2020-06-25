@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 export default function Cloud() {
   return (
-    <g id="cloud" className='cloud'>
+    <g id="cloud" className="cloud">
       <path className="sky cloud outline" d={`M120,70
 H30,
 C0,70 0,40 30,40

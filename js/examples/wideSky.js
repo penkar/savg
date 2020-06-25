@@ -1,5 +1,4 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 import {Cloud} from './cloud.js';
 import {Person} from './person.js';
 import {Plane} from './plane.js';
@@ -8,7 +7,7 @@ import {Shuttle} from './shuttle.js';
 import {Wave} from './wave.js';
 import {randomNumberBetween, randomNumberBetweenMaxMin} from '../utilities/randomNumberBetween.js';
 
-function WideSky(): React.Node {
+export const WideSky = () => {
   const cloudArray = [];
   for(let i = 0; i < 5; i++) {
     cloudArray.push({x: randomNumberBetween(600), y:randomNumberBetween(200), scale:randomNumberBetweenMaxMin(2,1)})
@@ -28,4 +27,3 @@ function WideSky(): React.Node {
     </g>
   )
 }
-export {WideSky}

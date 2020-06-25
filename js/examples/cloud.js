@@ -1,6 +1,6 @@
-// @flow
-import * as React from 'react';
-function Cloud(): React.Node {
+import React from 'react';
+
+export default function Cloud() {
   return (
     <g id="cloud" className='cloud'>
       <path className="sky cloud outline" d={`M120,70
@@ -15,4 +15,3 @@ Z`} />
     </g>
   );
 }
-export default Cloud

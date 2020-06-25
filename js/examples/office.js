@@ -1,6 +1,6 @@
-// @flow
-import * as React from 'react';
-function Office() :React.Node{
+import React from 'react';
+
+export default function Office() {
   return (
     <g id="office-component" className="office-component">
       <rect className="sky" x="0" y="0" height="250" width="210"/>
@@ -27,4 +27,3 @@ function Office() :React.Node{
     </g>
   );
 }
-export default Office

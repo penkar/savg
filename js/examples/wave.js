@@ -1,12 +1,7 @@
-// @flow
-import * as React from 'react';
-function Wave(): React.Node {
-  // const width = screen.width;
+import React from 'react';
 
-  return (
-    <g className='wave-component' style={{transform:`translate(0%, 100%)`}}>
-      <path className="purple" d={`m0,0 v-75 c0,-40 0,-40 100,-40 v75 z`}/>
-    </g>
-  )
-}
-export {Wave}
+export const Wave = () => (
+  <g className='wave-component' style={{transform:`translate(0%, 100%)`}}>
+    <path className="purple" d={`m0,0 v-75 c0,-40 0,-40 100,-40 v75 z`}/>
+  </g>
+);

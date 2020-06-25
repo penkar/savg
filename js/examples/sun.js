@@ -1,6 +1,6 @@
-// @flow
-import * as React from 'react';
-function Sun(): React.Node {
+import React from 'react';
+
+export default function Sun() {
   return (
     <g id="sun" className="sun-component">
       <circle cx="50" cy="50" r="70" className="light-yellow" />
@@ -22,4 +22,3 @@ function Sun(): React.Node {
     </g>
   );
 }
-export default Sun
